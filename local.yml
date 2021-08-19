@@ -1,8 +1,8 @@
--  host: localhost
-   connection: local
-   become: true
+  - host: localhost
+    connection: local
+    become: true
 
-   tasks:  
+    tasks:  
    - name: Install packages
      apt:
        name:
