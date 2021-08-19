@@ -2,7 +2,7 @@
    connection: local
    become: true
 
-  tasks:  
+   tasks:  
   - name: Install packages
     apt:
        name:
