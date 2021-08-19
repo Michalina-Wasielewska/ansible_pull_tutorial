@@ -1,6 +1,6 @@
-- host: localhost
-  connection: local
-  become: true
+-  host: localhost
+   connection: local
+   become: true
 
   tasks:  
   - name: Install packages
